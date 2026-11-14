@@ -1,0 +1,18 @@
+# Secrets and keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+*.env
+secrets/
+
+# Tool output that may contain real targets
+scans/
+*.pcap
+
+# Editor and system junk
+*.swp
+*~
+.DS_Store
+Thumbs.db
